@@ -40,3 +40,5 @@ jobs:
         skip_existing: true    # Skip package upload if release/tag already exists.
         pages_branch: gh-pages
         charts_dir: .
+      env:
+        CR_TOKEN: ${{ secrets.CR_TOKEN }}
