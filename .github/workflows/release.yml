@@ -41,4 +41,5 @@ jobs:
         pages_branch: gh-pages
         charts_dir: .
       env:
+        CR_SIGN: "false"
         CR_TOKEN: ${{ secrets.CR_TOKEN }}
