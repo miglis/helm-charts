@@ -40,7 +40,3 @@ jobs:
         skip_existing: true    # Skip package upload if release/tag already exists.
         pages_branch: gh-pages
         charts_dir: .
-      env:
-        CR_KEY: it-factory@twenty20.eu
-        CR_SIGN: true
-        CR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
